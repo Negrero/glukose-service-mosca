@@ -1,0 +1,1 @@
+/** * Created by Andres Carmona Gil on 21/04/2016. */var mosca = require('mosca')var pubsubsettings = {    type: 'mqtt',    json: false,    mqtt: require('mqtt'),    //host: '0.0.0.0',    host: '127.0.0.1',    port: 80};var server = new mosca.Server(pubsubsettings);
